@@ -10,7 +10,8 @@
 - [x] Add Codex relay adapter notes.
 - [x] Create GitHub repository.
 - [x] Push initial commit.
-- [ ] Add repository description and topics.
+- [x] Add repository description and topics.
+- [ ] Create v0.1.0 release tag.
 
 ## Suggested GitHub Topics
 
