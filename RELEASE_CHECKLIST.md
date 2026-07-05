@@ -11,7 +11,7 @@
 - [x] Create GitHub repository.
 - [x] Push initial commit.
 - [x] Add repository description and topics.
-- [ ] Create v0.1.0 release tag.
+- [x] Create v0.1.0 release tag.
 
 ## Suggested GitHub Topics
 
