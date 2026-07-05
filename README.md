@@ -79,6 +79,33 @@ Agent workflow:
 4. Update `STATUS.md`.
 5. Append `LOG.md`.
 
+## Scripts
+
+The scripts are optional. They make the file protocol easier to use from a terminal.
+
+Initialize a project:
+
+```bash
+python scripts/init_checkpoint.py /path/to/project --with-config
+```
+
+Append a checkpoint:
+
+```bash
+python scripts/checkpoint.py /path/to/project \
+  --change "Finished the parser fix" \
+  --result "Done" \
+  --notes "Tests pass" \
+  --current-task "Parser fix is complete" \
+  --next-step "Review the diff"
+```
+
+Generate a resume prompt:
+
+```bash
+python scripts/resume_summary.py /path/to/project --output RESUME.md
+```
+
 ## Adapter Mode
 
 Use the optional config when an integration can inject or validate project anchors.
@@ -160,7 +187,7 @@ See [docs/codex-relay-adapter.md](docs/codex-relay-adapter.md).
 
 ## Status
 
-v0.1 alpha.
+v0.2 alpha.
 
 ## License
 

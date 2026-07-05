@@ -1,8 +1,8 @@
 # STATUS
 
 > Updated: 2026-07-05
-> Current task: fight-on-memory v0.1.0 is published.
-> Next step: Plan v0.2 adapter wrapper or checkpoint scripts.
+> Current task: v0.2.0 checkpoint scripts are ready to publish.
+> Next step: Commit, push, and create the v0.2.0 release.
 
 ## Current State
 
@@ -17,6 +17,7 @@ fight-on-memory is a lightweight file protocol for keeping long-running AI agent
 | `LOG.md` | Append-only work history | Draft |
 | `.fightonmemory.toml` | Optional adapter config | Draft |
 | `templates/` | Copyable starter templates | Draft |
+| `scripts/` | Optional CLI helpers | Ready for v0.2.0 |
 
 ## Decisions
 
@@ -27,7 +28,8 @@ fight-on-memory is a lightweight file protocol for keeping long-running AI agent
 - Use MIT License for the first public release.
 - Use repository name `fight-on-memory`.
 - Ship v0.1 as protocol, templates, and docs before adding a working adapter.
+- Add minimal scripts before building a relay wrapper.
 
 ## Open Questions
 
-- Should v0.2 add a working relay wrapper, minimal checkpoint scripts, or both?
+- After v0.2.0, should the next milestone be a relay wrapper, packaging, or more examples?
