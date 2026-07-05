@@ -8,8 +8,8 @@
 - [x] Add MIT License.
 - [x] Add minimal examples.
 - [x] Add Codex relay adapter notes.
-- [ ] Create GitHub repository.
-- [ ] Push initial commit.
+- [x] Create GitHub repository.
+- [x] Push initial commit.
 - [ ] Add repository description and topics.
 
 ## Suggested GitHub Topics

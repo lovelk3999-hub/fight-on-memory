@@ -1,8 +1,8 @@
 # STATUS
 
 > Updated: 2026-07-05
-> Current task: Prepare SignalForge Checkpoint for first public release.
-> Next step: Initialize git, create the GitHub repository, and publish v0.1 alpha.
+> Current task: SignalForge Checkpoint v0.1 alpha is published.
+> Next step: Add repository topics and plan the first adapter implementation.
 
 ## Current State
 
